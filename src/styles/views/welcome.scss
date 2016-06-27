@@ -1,0 +1,36 @@
+@charset "utf-8";
+#w-swiper{
+    height: 100%;
+    width: 100%;
+    .swiper-wrapper{
+       height: 100%;
+       width: 100%;
+       .swiper-slide{
+            height: 100%;
+            width: 100%;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+       } 
+    }
+}
+.whello{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+    -webkit-animation: fadeOut 1s 2s both;
+    @-webkit-keyframes fadeOut{
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+        }
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}

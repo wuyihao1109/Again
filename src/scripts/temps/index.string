@@ -1,0 +1,25 @@
+<div class="i-container">
+	<div class="i-wrapper">
+		
+	</div>
+	<footer>
+		<ul class="f-list">
+				<li action-type="myTabs" data-tag="recycle" class="active">
+					<i class="yo-ico">&#xe6ed;</i>
+					<p>回收</p>
+				</li>
+				<li action-type="myTabs"  data-tag="shop">
+					<i class="yo-ico">&#xe61b;</i>
+					<p>便利店</p>
+				</li>
+				<li action-type="myTabs"  data-tag="lifeServer">
+					<i class="yo-ico">&#xe66c;</i>
+					<p>生活服务</p>
+				</li>
+				<li action-type="myTabs"  data-tag="my">
+					<i class="yo-ico">&#xe60d;</i>
+					<p>我的</p>
+				</li>
+			</ul>
+	</footer>
+</div>

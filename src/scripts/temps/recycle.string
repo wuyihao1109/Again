@@ -1,0 +1,84 @@
+<div class="i-recycle">
+<header>
+	<span>
+		<select name="i-select" id="i-select">
+		<option value="北京">北京</option>
+		</select>
+	</span>
+	<span>回收废品</span>
+	<span>
+		<a href="javascript:;" id="i-login">登陆</a>
+	</span>
+</header>
+<div class="i-scroll">
+<section>
+	<div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        	<img src="/Again/images/banner01.jpg"/>
+        </div>
+        <div class="swiper-slide">
+        	<img src="/Again/images/banner01.jpg"/>
+        </div>
+        <div class="swiper-slide">
+        	<img src="/Again/images/banner01.jpg"/>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+	</div>
+	<ul class="c-list">
+		<li><img src="/Again/images/img_new_bag.png"/></li>
+		<li><img src="/Again/images/img_new_bottol.png"/></li>
+		<li><img src="/Again/images/img_new_cans.png"/></li>
+		<li><img src="/Again/images/img_new_clothe.png"/></li>
+		<li><img src="/Again/images/img_new_electronic.png"/></li>
+		<li><img src="/Again/images/img_new_mobile.png"/></li>
+		<li><img src="/Again/images/img_new_pager.png"/></li>
+	</ul>
+	<h2>注册后开启回收服务<em>成为环保达人</em></h2>
+	<input type="button" id="c-register" value="立即注册" />
+	<div class="c-range">
+		<b class="range-left">
+			<span>周期-回收废品</span>
+			<img src="/Again/images/image_icon_shou.png" alt="" />
+			<span>周期-配送商品</span>
+			<img src="/Again/images/image_icon_song.png" alt="" />
+		</b>
+		<em>
+			<input type="button" id="r-seven" value="延后7天" />
+		</em>
+	</div>
+	<div class="c-range">
+		<i>
+			<img src="/Again/images/img_phone.png"/>
+			<span>预约回收智能手机</span>
+		</i>
+	</div>
+	<div class="c-range">
+		<i>
+			<img src="/Again/images/img_phone.png"/>
+			<span>预约回收智能手机</span>
+		</i>
+	</div>
+	<div class="c-range">
+		<i>
+			<img src="/Again/images/img_phone.png"/>
+			<span>预约回收智能手机</span>
+		</i>
+	</div>
+	<div class="c-range">
+		<i>
+			<img src="/Again/images/img_phone.png"/>
+			<span>预约回收智能手机</span>
+		</i>
+	</div>
+	<div class="c-range">
+		<i>
+			<img src="/Again/images/img_phone.png"/>
+			<span>预约回收智能手机</span>
+		</i>
+	</div>
+	</div>
+</section>
+</div>
+</div>

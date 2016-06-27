@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="./prd/styles/app.css"/>
+	</head>
+	<body>
+		<script src="src/scripts/shopCarFly/fly.js" type="text/javascript" charset="utf-8"></script>
+		<script src="src/scripts/shopCarFly/jquery.fly.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./prd/scripts/app.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		$(function(){
+			var offset = $("#end").offset();
+			console.log(offset);
+			$(".addcar").click(function(event){
+				var addcar = $(this);
+				var img = addcar.parent().find('img').attr('src');
+				console.log(img);
+				var flyer = $('<img class="u-flyer" src="'+img+'">');
+				flyer.fly({
+					start: {
+						left: event.pageX,
+						top: event.pageY
+					},
+					end: {
+						left: offset.left+10,
+						top: offset.top+10,
+						width: 0,
+						height: 0
+					},
+					onEnd: function(){
+						this.destory();
+					}
+				});
+			});
+		})
+		</script>
+	</body>
+</html>

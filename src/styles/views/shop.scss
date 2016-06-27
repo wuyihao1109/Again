@@ -1,0 +1,212 @@
+.i-container{
+    .u-flyer{display: block;width: 50px;height: 50px;border-radius: 50px;position: fixed;z-index: 9999;}
+     .i-wrapper{
+        .s-shop{
+            height: 100%;
+            @include flexbox(flex);
+            @include flex-direction(column);
+             header{
+                height: 0.44rem;
+                width: 100%;
+                background: #fff;
+                @include box-sizing(border-box);
+                border-bottom:solid #e0e0e0 1px;
+                .t-list{
+                    width: 100%;
+                    height: 100%;
+                    @include flexbox(flex);
+                    li{
+                        line-height: 0.30rem;
+                        text-align:center;
+                        width:100%;     
+                        &:nth-child(1){
+                            margin-top: 0.05rem;
+                            @include flex(5);
+                            input{
+                                width: 80%;
+                                background: #f0f0f0;
+                                border: 0;
+                                outline: 0;
+                                padding-left: 0.05rem;
+                                color: #c2c2c2;
+                            }
+                        }
+                        &:nth-child(2){
+                            @include flex(1);
+                            position: relative;
+                            a{
+                                display: block;
+                                font-size: 30px;
+                                color: #84bd57;
+                                @include flex(1);   
+                            }
+                            .shop-num{
+                                position: absolute;
+                                top: 3px;
+                                left:19px;
+                                border-radius: 30%;
+                                width: 0.16rem;
+                                height: 0.16rem;
+                                background: #f66;
+                                text-align: center;
+                                line-height: 0.16rem;
+                                color: #fff;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+            .s-scroll{
+                 @include flex(1);
+                 height: 100%;
+                 overflow: hidden;
+                 width: 100%;
+            section{
+                width: 100%;
+                .refresh-up{
+                    width: 100%;
+                    text-align: center;
+                    height: 0.4rem;
+                    line-height: 0.4rem;
+                       i{
+                        font-size: 30px;
+                        margin-right: 0.1rem;
+                    }
+                }
+                .swiper-container{
+                   img{
+                       width: 100%;
+                   }
+                }
+                .shop-list{
+                    background: #fff;
+                    @include flexbox(flex);
+                    li{
+                        @include flex(1);
+                        padding:0.08rem 0;
+                        text-align: center;
+                        i{ 
+                            padding: 0.05rem;
+                            background: #da6bee;
+                            text-align: center;
+                            width: 0.5rem;
+                            font-size: 0.4rem;
+                            color: #fff;
+                            line-height: 0.5rem;
+                            border-radius: 5%;
+                        }
+                        p{
+                            margin-top: 0.05rem;
+                            color: #c3c3c3;
+                        }
+                    }
+                }
+                .show-list{
+                    width: 100%;
+                    margin-top: 0.05rem;
+                    background: #fff;
+                    @include box-sizing(border-box);
+                    @include flexbox(flex);
+                    li{
+                        text-align: center;
+                         width: 100%;
+                        
+                        &:nth-child(1){
+                            line-height: 1.6rem;
+                            border-right:1px solid #eee;
+                            @include flex(1);
+                            img{   
+                                width: 90%;    
+                            }
+                        }
+                        &:nth-child(2){
+                            @include flex(3);
+                            @include flexbox(flex);
+                            @include box-sizing(border-box);
+                            @include flex-direction(column);
+                            .right-up{
+                                width: 100% !important;
+                                @include flex(1);
+                                line-height: 0.8rem;
+                                border-bottom: 1px solid #eee;
+                                img{
+                                    width:50%;
+                                }
+                            }
+                            .right-down{
+                                width: 100% !important;
+                                @include flex(1);
+                                line-height: 0.8rem;
+                                .down-list{
+                                    width: 100%;
+                                    display: block;
+                                    @include flexbox();
+                                    @include box-sizing(border-box);
+                                    i{
+                                        display: block;
+                                        border-right: 1px solid #eee;
+                                        @include flex(1);
+                                        &:nth-child(3){
+                                            border-right: 0;
+                                        }
+                                        img{
+                                            width: 50%;
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .pro-list{
+                    margin-top: 0.2rem;
+                    @include flexbox(flex);
+                    @include flex-wrap(wrap);
+                    width: 100%;
+                    text-align: center;
+                    background: #fff;
+                    li{
+                        @include box-sizing(border-box);
+                        margin: 0.05rem 1%;
+                        border: 1px solid #ddd;
+                        width: 48%;
+                        position: relative;
+                        em{
+                            color: #ddd;
+                        }
+                        b{
+                           margin-left: 0.05rem;
+                           color: #f66; 
+                        }
+                        &.b-active{
+                            border: 1px solid #f66; 
+                        }
+                        #btn{
+                            position: absolute;
+                            border: 0;
+                            right: 0;
+                            top: 0;
+                            height: 0.5rem;
+                            background: #f66;
+                            color: #fff;
+                        }
+                    }
+                    .pull-up{
+                        width: 100%;
+                        text-align: center;
+                        height: 0.6rem;
+                        line-height: 0.6rem;
+                        i{
+                            font-size: 30px;
+                            margin-right: 0.1rem;
+                        }
+                    }
+                }
+            }   
+            }
+        }
+       
+    }
+}

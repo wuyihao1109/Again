@@ -1,0 +1,27 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+  	{
+      "imgsrc": "/Again/images/placeOne3.png",
+      "title": "地图",
+      "price":"￥12.00"
+    },
+  	{
+      "imgsrc": "/Again/images/placeOne4.png",
+      "title": "海南椰树",
+      "price":"￥2209.00"
+    },
+  	{
+      "imgsrc": "/Again/images/placeOne5.png",
+      "title": "北京四环房",
+      "price":"￥9.00"
+    },
+    {
+      "imgsrc": "/Again/images/placeOne6.png",
+      "title": "扇子",
+      "price":"￥109.00"
+    }
+  ]
+}

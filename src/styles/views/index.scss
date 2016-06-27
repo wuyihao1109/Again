@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import "../selectStyle/style.css";
+.i-container{
+    width: 100%;
+    height: 100%;
+    @include flexbox(flex);
+    @include flex-direction(column);
+    overflow: hidden;
+    .i-wrapper{
+        width: 100% !important;
+        height: 100%;
+        @include flex(1);
+        @include flexbox(flex);
+        @include flex-direction(column);
+        position: relative;
+    }
+    footer{
+        height: 0.58rem;
+        width: 100%;
+        background: #fff;
+        .f-list{
+            @include flexbox(flex);
+            height: 100%;
+            li{
+                @include flex(1);
+                text-align: center;
+                color: #ccc;
+                i{
+                    font-size: 26px;
+                }
+                p{
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+                &.active{
+                    color: #6bb035;
+                }
+            }
+        }
+    }
+}

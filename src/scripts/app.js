@@ -1,0 +1,12 @@
+require("./lib/spa.min.js");
+require("lib/swiper-3.3.1.min.js");
+require("./lib/iscroll-probe.js");
+require("./views/recycle.js");
+require("./views/lifeServer.js");
+require("./views/my.js");
+require("./views/shop.js");
+require("./views/index.js");
+require("./views/welcome.js");
+SPA.config({
+	indexView:"welcome"
+});

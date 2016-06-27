@@ -1,0 +1,42 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "imgsrc": "/Again/images/placeOne7.png",
+      "title": "大象哈哈",
+      "price":"￥10229.00"
+    },
+    {
+      "imgsrc": "/Again/images/placeOne8.png",
+      "title": "自由女神",
+      "price":"￥1.00"
+    },
+    {
+      "imgsrc": "/Again/images/placeOne9.png",
+      "title": "无敌风火轮",
+      "price":"￥89.00"
+    },
+    {
+      "imgsrc": "/Again/images/placeOne2-1.png",
+      "title": "公共汽车",
+      "price":"￥82329.00"
+    },
+    {
+      "imgsrc": "/Again/images/placeOne1.png",
+      "title": "热度",
+      "price":"￥23.00"
+    },
+    {
+      "imgsrc": "/Again/images/placeOne2-1.png",
+      "title": "公2共汽车",
+      "price":"￥82329.00"
+    },
+    {
+      "imgsrc": "/Again/images/placeOne1.png",
+      "title": "热2度",
+      "price":"￥23.00"
+    }
+  ]
+}

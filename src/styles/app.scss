@@ -1,0 +1,28 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+@import "./core/classes.scss";
+@import "core/reset.scss";
+@import "core/variables.scss";
+@import "lib/core/swiper-3.3.1.min.css";
+@import "lib/core/common.scss";
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+spa-view {
+    position: absolute;
+    z-index:0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #eceef0 !important;
+    @include flexbox(flex);
+    @include flex-direction(column);
+}
+@import "./views/recycle.scss";
+@import "./views/welcome.scss";
+@import "./views/shop.scss";
+@import "./views/index.scss";

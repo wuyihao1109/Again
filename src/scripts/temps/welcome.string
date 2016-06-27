@@ -1,0 +1,11 @@
+<div class="whello">
+	<img src="/Again/images/splash_front.jpg"/>
+</div>
+<div class="swiper-container" id="w-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="/Again/images/welcome_one.png"/></div>
+    <div class="swiper-slide"><img src="/Again/images/welcome_two.png"/></div>
+    <div class="swiper-slide"><img src="/Again/images/welcome_three.png"/></div>
+    <div class="swiper-slide" action-type="tabs"><img src="/Again/images/welcome_four.png"/></div>
+  </div>
+</div>

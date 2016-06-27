@@ -1,0 +1,68 @@
+<div class="s-shop">
+<header class="t-top">
+	<ul class="t-list">
+		<li><input type="text" value="请输入..." action-type="shopTabs"/></li>
+		<li action-type="shopCar" id="end"><a href="javascript:;"><i class="yo-ico">&#xe632;</i></a>
+			<span class="shop-num" ms-text="numcar">0</span>
+		</li>
+	</ul>
+</header>
+<div class="s-scroll" data-scroll-id="shopScroll">
+<section>
+	<div class="refresh-up"><i class="yo-ico">&#xe610;</i>下拉刷新</div>
+	<div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        	<img src="/Again/images/banner01.jpg"/>
+        </div>
+        <div class="swiper-slide">
+        	<img src="/Again/images/banner01.jpg"/>
+        </div>
+        <div class="swiper-slide">
+        	<img src="/Again/images/banner01.jpg"/>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+	</div>
+	<ul class="shop-list">
+		<li>
+			<i class="yo-ico">&#xe640;</i>
+			<p>商品分类</p>
+		</li>
+		<li>
+			<i class="yo-ico">&#xe608;</i>
+			<p>丽人生活</p>
+		</li>
+		<li>
+			<i class="yo-ico">&#xe602;</i>
+			<p>优选海鲜</p>
+		</li>
+		<li>
+			<i class="yo-ico">&#xe623;</i>
+			<p>每日新品</p>
+		</li>
+	</ul>
+	<ul class="show-list">
+		<li><img src="/Again/images/week-sale.png"/></li>
+		<li>
+			<div class="right-up"><img src="/Again/images/xiaolx.png"/></div>
+			<div class="right-down">
+				<span class="down-list">
+					<i><img src="/Again/images/nongfu.png" alt="" /></i>
+					<i><img src="/Again/images/nongfu.png" alt="" /></i>
+					<i><img src="/Again/images/nongfu.png" alt="" /></i>
+				</span>
+			</div>
+		</li>
+	</ul>
+	<ul class="pro-list">
+		<li ms-repeat-value="livelist" class="addcar">
+			<input type="button" name="btn" id="btn" value="点击购买" action-type="clickShop"/>	
+			<img ms-src="value.imgsrc" alt="" />
+			<p><em ms-text="value.title"></em><b ms-text="value.price"></b></p>
+		</li>
+		<div class="pull-up"><i class="yo-ico">&#xe610;</i>上拉加载</div>
+	</ul>
+</section>
+</div>
+</div>
